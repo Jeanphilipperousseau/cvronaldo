@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Formulaire de contact de Ronaldo">
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="menu.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="photoperso">
+                <img src="Photocv.jpg" alt="photo du site">
+            </div>
+            <div class="posterecherche size40">
+                Club de foot européen <br>
+                Footballeur profesionnel <br>
+                Cristiano RONALDO<br> 
+            </div>
+            <div class="infoperso size40">
+                Cristiano RONALDO <br>
+                Portugal <br>
+                Age: 39 ans
+            </div>
+        </div>
+
+        <nav class="bg-colorBlue3">
+            <ul>
+                <li class="menuinfo">
+                    <a href="cv.html">Mes informations</a>
+                </li>
+                <li class="menuexperience">
+                    <a href="experiencepro.html">Experience Pro</a>
+                </li>
+                <li class="menucontact">
+                    <a href="contact.html">Formulaire de contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="corps size20">
+            <h2 class="size40 boderbottomdark">Al Nassr</h2>
+            <div>Téléphone : 07373743843 <br>
+                Mail : alnassr@alnassr.com
+            </div> 
+
+            <h2 class="size40 boderbottomdark">Me contacter</h2>
+            <div>
+                <form>
+                    <fieldset>
+                        <legend>Renseigner les informations</legend>
+                        <div>
+                            <label for="Nom">Nom :</label>
+                            <input type="text" name="Nom" id="Nom" placeholder="Nom / Prénom">
+                        </div>
+                        <div>
+                            <label for="Mail">Mail :</label>
+                            <input type="email" name="Mail" id="Mail" placeholder="nom@exemple.com">
+                        </div>
+                        <div>
+                            <label for="Object">Objet :</label>
+                            <select name="Object" id="Object" required>
+                                <option value="" disabled selected>Sélectionner un objet</option>
+                                <option value="Question">Question</option>
+                                <option value="Autre">Autre</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message">Message :</label>
+                            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                        </div>
+                        <input type="submit" value="Valider" class="buttoncontact">
+                    </fieldset>
+                </form>
+            </div>       
+        </div>
+
+        <div class="footer text-center text-white bg-colorBlue3">
+            Tous droits réservés à ROUSSEAU Jean-Philippe
+        </div>
+    </body>
+</html>
